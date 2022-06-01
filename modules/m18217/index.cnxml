@@ -1,0 +1,1062 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Quadratic Concepts -- Solving Quadratic Equations by Completing the Square</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18217</md:content-id>
+  <md:title>Quadratic Concepts -- Solving Quadratic Equations by Completing the Square</md:title>
+  <md:abstract>This module teaches the method of solving quadratic equations by completing the square.</md:abstract>
+  <md:uuid>21eb13da-510d-4c95-9d43-b8d1fdaf6ad6</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/completing-the-square" strength="3">Completing the Square Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/solving-a-quadratic-by-completing-the-square" strength="3">Solving Quadratic Equations by Completing the Square Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id14744693">Consider the equation:</para>
+    <equation id="id14744697">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mfenced open="(" close=")">
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:mfenced>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mtext>16</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ left (x+3 right ) rSup { size 8{2} } ="16"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id14744775">We can solve this by analogy to the way that we approached absolute value problems. <emphasis>something</emphasis> squared is 16. So what could the <emphasis>something</emphasis> be? It could be 4. It could also be 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 4} {}</m:annotation></m:semantics></m:math>. So the solution is:</para>
+    <list id="id14744849" list-type="bulleted">
+      <item>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{x+3=4} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        <list id="id14744912" list-type="bulleted">
+          <item>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{x=1} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+          </item>
+        </list>
+      </item>
+      <item>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{x+3= - 4} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        <list id="id14745032" list-type="bulleted">
+          <item>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>7</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{x= - 7} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+          </item>
+        </list>
+      </item>
+    </list>
+    <para id="id14745092">These are the two solutions.</para>
+    <para id="id14745096">This simple problem leads to a completely general way of solving quadratic equations—because any quadratic equation can be put in a form like the above equation. The key is <emphasis>completing the square </emphasis>which, in turn, is based on our original two formulae:</para>
+    <equation id="id14745120">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>a</m:mi>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>ax</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ left (x+a right ) rSup { size 8{2} } =x rSup { size 8{2} } +2 ital "ax"+a rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="element-91"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>a</m:mi>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>ax</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ left (x - a right ) rSup { size 8{2} } =x rSup { size 8{2} }  - 2 ital "ax"+a rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id13536684">As an example, consider the equation 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>21</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +"10"x+"21"=0} {}</m:annotation></m:semantics></m:math>. In order to make it fit one of the patterns above, we must replace the 21 with the correct number: a number such that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>__</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +"10"x+"__"} {}</m:annotation></m:semantics></m:math> is a perfect square. What number goes there? If you are familiar with the pattern, you know the answer right away. 10 is 5 <emphasis>doubled</emphasis>, so the number there must be 5 <emphasis>squared</emphasis>, or 25.</para>
+    <para id="id13536878">But how do we turn a 21 into a 25? We add 4, of course. And if we add 4 to <emphasis>one</emphasis> side of the equation, we have to add 4 to the <emphasis>other</emphasis> side of the equation. So the entire problem is worked out as follows:</para>
+    <example id="element-971"><para id="element-799"><table id="id13536909a" summary="A table depicting the procedure in solving quadratic equations using the technique called 'Completing the Square', the quick and dirty way.">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry namest="c1" nameend="c3">Solving by Completing the Square (quick-and-dirty version)</entry>
+          </row>
+</thead>
+<tbody>
+          <row>
+            <entry namest="c1" nameend="c2">Solve 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>21</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +"10"x+"21"=0} {}</m:annotation></m:semantics></m:math></entry>
+            <entry>
+              <emphasis>The problem.</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry namest="c1" nameend="c2">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mtext>10</m:mtext>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mtext>25</m:mtext>
+                            </m:mrow>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +"10"x+"25"=4} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <emphasis>Add 4 to both sides, so that the left side becomes a perfect square.</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry namest="c1" nameend="c2">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>5</m:mn>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ left (x+5 right ) rSup { size 8{2} } =4} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <emphasis>Rewrite the perfect square.</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mtable>
+                          <m:mtr>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mn>5</m:mn>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                          <m:mtr>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                        </m:mtable>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ matrix {
+x+5=2 {} ##
+x= - 3
+} } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mtable>
+                          <m:mtr>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mn>5</m:mn>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mrow>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                          <m:mtr>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>7</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                        </m:mtable>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ matrix {
+x+5= - 2 {} ##
+x= - 7
+} } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <emphasis>If something-squared is 4, the something can be 2, or </emphasis>
+              <emphasis>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ - 2} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </emphasis>
+              <emphasis>. Solve both possibilities to find the two answers.</emphasis>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+</para>
+</example>
+    <para id="id14047261">Thus, we have our two solutions.</para>
+    <para id="id14047265">Completing the square is more time-consuming than factoring: so whenever a quadratic equation can be factored, factoring is the preferred method. (In this case, we would have factored the original equation as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>7</m:mn></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (x+3 right ) left (x+7 right )} {}</m:annotation></m:semantics></m:math> and gotten straight to the answer.) However, completing the square can be used on <emphasis>any</emphasis> quadratic equation. In the example below, completing the square is used to find two answers that would not have been found by factoring.</para>
+<example id="compsquare_1">
+<para id="compsquare_1a"><table id="id14047365" summary="A table depicting the procedure in solving quadratic equations using the technique called 'Completing the Square', in a more careful and expanded way.">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry namest="c1" nameend="c3">Solving by Completing the Square (showing all the steps more carefully)</entry>
+          </row>
+</thead>
+<tbody>
+          <row>
+            <entry namest="c1" nameend="c2">Solve 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mn>9x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mtext>54</m:mtext></m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>80</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9x rSup { size 8{2} }  - "54"x+"80"=0} {}</m:annotation></m:semantics></m:math></entry>
+            <entry><emphasis>The problem.</emphasis></entry>
+          </row>
+          <row>
+            <entry namest="c1" nameend="c2">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mn>9x</m:mn>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>54</m:mtext>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mtext>80</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{9x rSup { size 8{2} }  - "54"x= - "80"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <emphasis>Put all the </emphasis>
+              <emphasis>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </emphasis>
+              <emphasis> terms on one side, and the number on the other</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry namest="c1" nameend="c2">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>6x</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mfrac>
+                              <m:mtext>80</m:mtext>
+                              <m:mn>9</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} }  - 6x= -  {  {"80"}  over  {9} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <emphasis>Divide both sides by the coefficient of </emphasis>
+              <emphasis>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </emphasis>
+              <emphasis>(*see below)</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry namest="c1" nameend="c2">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>6x</m:mn>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:munder accentunder="true">
+                              <m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>9</m:mn>
+                              </m:mrow>
+                              <m:mo>̲</m:mo>
+                            </m:munder>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mfrac>
+                                  <m:mtext>80</m:mtext>
+                                  <m:mn>9</m:mn>
+                                </m:mfrac>
+                              </m:mrow>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:munder accentunder="true">
+                                <m:mn>9</m:mn>
+                                <m:mo>̲</m:mo>
+                              </m:munder>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} }  - 6x {underline  {+9}} = -  {  {"80"}  over  {9} } + {underline  {9}} } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <emphasis>Add the same number (*see below) to both sides, so that the left side becomes a perfect square.</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry namest="c1" nameend="c2">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mfenced open="(" close=")">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mfenced>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mfrac>
+                                  <m:mtext>80</m:mtext>
+                                  <m:mn>9</m:mn>
+                                </m:mfrac>
+                              </m:mrow>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mfrac>
+                                <m:mtext>81</m:mtext>
+                                <m:mn>9</m:mn>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>9</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ left (x - 3 right ) rSup { size 8{2} } = -  {  {"80"}  over  {9} } + {  {"81"}  over  {9} } = {  {1}  over  {9} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <emphasis>Rewrite the perfect square.</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mtable>
+                          <m:mtr>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mfrac>
+                                    <m:mn>1</m:mn>
+                                    <m:mn>3</m:mn>
+                                  </m:mfrac>
+                                </m:mrow>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                          <m:mtr>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                                <m:mfrac>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>1</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>3</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                        </m:mtable>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ matrix {
+x - 3= {  {1}  over  {3} }  {} ##
+x=3 {  { size 8{1} }  over  { size 8{3} } } 
+} } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mtable>
+                          <m:mtr>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mfrac>
+                                      <m:mn>1</m:mn>
+                                      <m:mn>3</m:mn>
+                                    </m:mfrac>
+                                  </m:mrow>
+                                </m:mrow>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                          <m:mtr>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                                <m:mfrac>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>3</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                        </m:mtable>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ matrix {
+x - 3= -  {  {1}  over  {3} }  {} ##
+x=2 {  { size 8{2} }  over  { size 8{3} } } 
+} } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <emphasis>If something-squared is </emphasis>
+              <emphasis>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>9</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {9} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </emphasis>
+              <emphasis>, the something can be </emphasis>
+              <emphasis>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>3</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {3} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </emphasis>
+              <emphasis>, or </emphasis>
+              <emphasis>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mn>3</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ -  {  {1}  over  {3} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </emphasis>
+              <emphasis>. Solve both possibilities to find the two answers.</emphasis>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+</para>
+</example>
+
+    <para id="id14048496">Two steps in particular should be pointed out here.</para>
+    <para id="id14048501">In the third step, we divide both sides by 9. When completing the square, you do not want to have any coefficient in front of the term; if there is a number there, you divide it out. Fractions, on the other hand (such as the
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mtext>80</m:mtext><m:mn>9</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  {  {"80"}  over  {9} } } {}</m:annotation></m:semantics></m:math> in this case) do not present a problem. This is in marked contrast to factoring, where a coefficient in front of the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> can be left alone, but fractions make things nearly impossible.</para>
+    <para id="id13611746">The step after that is where we actually complete the square. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>6x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>__</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +6x+"__"} {}</m:annotation></m:semantics></m:math> will be our perfect square. How do we find what number we want? Start with the coefficient of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> (in this case, 6). <emphasis>Take half of it, and square the result</emphasis>. Half of 6 is 3, squared is 9. So we want a 9 there to create 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>6x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +6x+9} {}</m:annotation></m:semantics></m:math> which can be simplified to 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (x+3 right ) rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para>
+    <figure id="id13612039"><media id="id1164484124834" alt="An image showing how to select the correct number and position it within the equation correctly when completing the square."><image src="../../media/graphics1-dded.png" mime-type="image/png" print-width="3in"/></media></figure>
+    <para id="id13612062">If the coefficient of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> is an <emphasis>odd number</emphasis>, the problem becomes a little uglier, but the principle is the same. For instance, faced with:</para>
+    <equation id="id13612128">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>5x</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mtext>__</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +5x+"__"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id13612196">You would begin by taking half of 5 (which is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {5}  over  {2} } } {}</m:annotation></m:semantics></m:math>) and then squaring it:</para>
+    <para id="id13612251">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>5x</m:mn>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mtext>25</m:mtext>
+                      <m:mn>4</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msup>
+                    <m:mfenced open="(" close=")">
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mn>5</m:mn>
+                          <m:mn>2</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mfenced>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +5x+ {  {"25"}  over  {4} } = left (x+ {  {5}  over  {2} }  right ) rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="id13612362">Another “completing the square” example, in which you cannot get rid of the square root at all, is presented in the worksheet “The Generic Quadratic Equation.”</para>
+    <para id="id13612372">One final note on completing the square: there are three different possible outcomes.</para>
+    <list id="id13612378" list-type="bulleted">
+      <item>If you end up with something like 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mtext>16</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (x - 3 right ) rSup { size 8{2} } ="16"} {}</m:annotation></m:semantics></m:math> you will find two solutions, since 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x - 3} {}</m:annotation></m:semantics></m:math> can be either 4, or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 4} {}</m:annotation></m:semantics></m:math>. You will always have two solutions if the right side of the equation, after completing the square, is positive.</item>
+      <item>If you end up with 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (x - 3 right ) rSup { size 8{2} } =0} {}</m:annotation></m:semantics></m:math> then there is only one solution: x must be 3 in this example. If the right side of the equation is 0 after completing the square, there is only one solution.</item>
+      <item>Finally, what about a negative number on the right, such as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>16</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (x - 3 right ) rSup { size 8{2} } = - "16"} {}</m:annotation></m:semantics></m:math>? Nothing squared can give a negative answer, so there is no solution.</item>
+    </list>
+  </content>
+</document>

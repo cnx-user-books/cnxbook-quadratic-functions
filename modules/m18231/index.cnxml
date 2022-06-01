@@ -1,0 +1,298 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Quadratic Concepts -- The Quadratic Formula</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18231</md:content-id>
+  <md:title>Quadratic Concepts -- The Quadratic Formula</md:title>
+  <md:abstract>This module discusses the quadratic formula.</md:abstract>
+  <md:uuid>963292da-445a-4aa3-956e-be287f097158</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/deriving-the-quadratic-formula" strength="3">Deriving the Quadratic Formula Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/the-quadratic-formula" strength="3">The Quadratic Formula Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id3664489">In "Solving Quadratic Equations by Completing the Square" I talked about the common mathematical trick of solving a problem once, <emphasis>using letters instead of numbers</emphasis>, and then solving specific problems by plugging numbers into a general solution.</para>
+    <para id="id3651350">In the text, you go through this process for quadratic equations in general. The definition of a quadratic equation is any equation that can be written in the form:</para>
+    <equation id="id3630059">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>ax</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>bx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mi>c</m:mi>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "ax" rSup { size 8{2} } + ital "bx"+c=0} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id3628943">where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a &lt;&gt; 0} {}</m:annotation></m:semantics></m:math>. By completing the square on this generic equation, you arrive at the quadratic formula:</para>
+    <equation id="id3661471">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>b</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">±</m:mo>
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>b</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>ac</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:msqrt>
+                    </m:mrow>
+                    <m:mn>2a</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x= {  { - b +-  sqrt {b rSup { size 8{2} }  - 4 ital "ac"} }  over  {2a} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id3657810">This formula can then be used to solve any quadratic equation, without having to complete the square each time. To see how this formula works, let us return to the previous problem:</para>
+    <equation id="id3620248">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>9x</m:mn>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mtext>54</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>80</m:mtext>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{9x rSup { size 8{2} }  - "54"x+"80"=0} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id3663581">In this case, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a=9} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>b</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>54</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b= - "54"} {}</m:annotation></m:semantics></m:math>, and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>80</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c="80"} {}</m:annotation></m:semantics></m:math>. So the quadratic formula tells us that the answers are:</para>
+    <equation id="id3629035">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                        </m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mtext>54</m:mtext>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">±</m:mo>
+                        <m:msqrt>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mtext>54</m:mtext>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mn>9</m:mn>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mtext>80</m:mtext>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:msqrt>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>9</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x= {  { -  \(  - "54" \)  +-  sqrt { \(  - "54" \)  rSup { size 8{2} }  - 4 \( 9 \)  \( "80" \) } }  over  {2 \( 9 \) } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id3662797">We’ll use a calculator here rather than squaring 54 by hand....</para>
+    <equation id="id3662803">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mtext>54</m:mtext>
+                            <m:mo stretchy="false">±</m:mo>
+                            <m:msqrt>
+                              <m:mrow>
+                                <m:mtext>2916</m:mtext>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>2880</m:mtext>
+                              </m:mrow>
+                            </m:msqrt>
+                          </m:mrow>
+                          <m:mtext>18</m:mtext>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mtext>54</m:mtext>
+                          <m:mo stretchy="false">±</m:mo>
+                          <m:msqrt>
+                            <m:mtext>36</m:mtext>
+                          </m:msqrt>
+                        </m:mrow>
+                        <m:mtext>18</m:mtext>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mtext>54</m:mtext>
+                        <m:mo stretchy="false">±</m:mo>
+                        <m:mn>6</m:mn>
+                      </m:mrow>
+                      <m:mtext>18</m:mtext>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>9</m:mn>
+                      <m:mo stretchy="false">±</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x= {  {"54" +-  sqrt {"2916" - "2880"} }  over  {"18"} } = {  {"54" +-  sqrt {"36"} }  over  {"18"} } = {  {"54" +- 6}  over  {"18"} } = {  {9 +- 1}  over  {3} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id3602841">So we find that the two answers are 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>10</m:mtext><m:mn>3</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"10"}  over  {3} } } {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>8</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {8}  over  {3} } } {}</m:annotation></m:semantics></m:math>, which are the same answers we got by completing the square.</para>
+    <para id="id3615550">Using the quadratic formula is usually faster than completing the square, though still slower than factoring. So, in general, try to factor first: if you cannot factor, use the quadratic formula.</para>
+    <para id="id3615560">So why do we learn completing the square? Two reasons. First, completing the square is how you <emphasis>derive</emphasis> the quadratic formula. Second, completing the square is vital to <emphasis>graphing</emphasis> quadratic functions, as you will see a little further on in the chapter.</para>
+  </content>
+</document>

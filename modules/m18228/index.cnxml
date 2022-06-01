@@ -1,0 +1,320 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Quadratic Concepts -- Graphing Quadratic Equations</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18228</md:content-id>
+  <md:title>Quadratic Concepts -- Graphing Quadratic Equations</md:title>
+  <md:abstract>This module covers the graphing of quadratic equations.</md:abstract>
+  <md:uuid>e3830095-7747-4e09-af3d-97e26f16796c</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/graphing-a-quadratic-inequality" strength="3">Graphing Quadratic Inequalities Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/graphing-a-horizontal-parabola" strength="3">Graphing a Horizontal Parabola Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/focus-and-directrix-of-a-parabola" strength="3">Parabola Focus Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/finding-intercepts-domain-range-and-vertex-of-a-parabola" strength="3">Parabola Intercept Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/finding-the-vertex-of-a-parabola-by-completing-the-square" strength="3">Parabola Vertex Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/dilations-of-quadratic-graphs" strength="3">Graph Dilations Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/vertical-and-horizontal-shifts-of-quadratic-graphs" strength="3">Graph Shifts Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/graphing-quadratic-equations" strength="3">Graphing Quadratic Equations Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/exploring-quadratic-graphs" strength="3">Quadratic Graphs Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id11556845">The graph of the simplest quadratic function, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, looks like this:</para>
+    <figure id="id5959360"><media id="id1171345914598" alt="Graph of x-squared, a normal parabola centered at the origin."><image src="../../media/graphics1-ee6a.png" mime-type="image/png" print-width="3in"/></media></figure>
+    <para id="id4336153">(You can confirm this by plotting points.) The point at the bottom of the U-shaped curve is known as the “vertex.”</para>
+    <para id="id11199847">Now consider the function 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - 3 left (x+2 right ) rSup { size 8{2} } +1} {}</m:annotation></m:semantics></m:math>. It’s an intimidating function, but we have all the tools we need to graph it, based on the <emphasis>permutations</emphasis> we learned in the first unit. Let’s step through them one by one.</para>
+    <list id="id5959764" list-type="bulleted"><item>What does the <m:math><m:mo>–</m:mo></m:math> sign do? It multiplies all 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-values by 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 1} {}</m:annotation></m:semantics></m:math>; positive values become negative, and vice-versa. So we are going to get an <emphasis>upside-down</emphasis> U-shape. We say that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> “opens up” and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> “opens down.”</item>
+      <item>What does the 3 do? It multiplies all 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-values by 3; positive values become more positive, and negative values become more negative. So it <emphasis>vertical stretches</emphasis> the function.</item>
+      <item>What does the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+1} {}</m:annotation></m:semantics></m:math> at the end do? It adds 1 to all 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-values, so it moves the function <emphasis>up</emphasis> by 1.</item>
+      <item>Finally, what does the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+2} {}</m:annotation></m:semantics></m:math> do? This is a horizontal modification: if we plug in 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x="10"} {}</m:annotation></m:semantics></m:math>, we will be evaluating the function at 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>12</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x="12"} {}</m:annotation></m:semantics></m:math>. In general, we will always be copying the original 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> function to our <emphasis>right</emphasis>; so we will be 2 units to the <emphasis>left</emphasis> of it.</item>
+    </list>
+    <para id="id11352784">So what does the graph look like? It has moved 2 to the left and 1 up, so the vertex moves from the origin 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 0,0 \) } {}</m:annotation></m:semantics></m:math> to the point 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>2,1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  - 2,1 \) } {}</m:annotation></m:semantics></m:math>. The graph has also flipped upside-down, and stretched out vertically.</para>
+    <figure id="id11523888"><media id="id1171345593724" alt="An inverted parabola scaled by a factor of 3."><image src="../../media/graphics2-629d.png" mime-type="image/png" print-width="3in"/></media></figure>
+    <para id="id11535431">So graphing quadratic functions is easy, no matter how complex they are, if you understand permutations—and if the functions are written in the form 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>h</m:mi></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mi>k</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=a left (x - h right ) rSup { size 8{2} } +k} {}</m:annotation></m:semantics></m:math>, as that one was.</para>
+    
+    <para id="id9644871"><title>Graphing Quadratic Functions</title>The graph of a quadratic function is always a vertical parabola. If the function is written in the form 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>h</m:mi></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mi>k</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=a left (x - h right ) rSup { size 8{2} } +k} {}</m:annotation></m:semantics></m:math> then the vertex is at 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>h</m:mi><m:mi>,</m:mi><m:mi>k</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( h,k \) } {}</m:annotation></m:semantics></m:math>. If 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> is positive, the parabola opens up; if 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> is negative, the parabola opens down.</para>
+    <para id="id11566375">But what if the functions are not expressed in that form? We’re more used to seeing them written as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>ax</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>bx</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">+</m:mo><m:mi>c</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= ital "ax" rSup { size 8{2} } + ital "bx"+c} {}</m:annotation></m:semantics></m:math> . For such a function, you graph it by first putting it into the form we used above, and then graphing it. And the way you get it into the right form is...completing the square! This process is almost identical to the way we used completing the square to <emphasis>solve</emphasis> quadratic equations, but some of the details are different.</para>
+
+<example id="graph_quad"><!--<para id="graph_quada">-->
+    <table id="id11421555" summary="A table showing the steps to take when graphic a parabola.">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry namest="c1" nameend="c2">Graphing a Quadratic Function</entry>
+          </row>
+</thead>
+<tbody>
+          <row>
+            <entry>Graph 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mn>2x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mtext>20</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>58</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x rSup { size 8{2} }  - "20"x+"58"} {}</m:annotation></m:semantics></m:math></entry>
+            <entry><emphasis>The problem</emphasis>.</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:mrow>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>x</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mtext>10</m:mtext>
+                                </m:mrow>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mtext>58</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{2 left (x rSup { size 8{2} }  - "10"x right )+"58"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <emphasis>We used to start out by dividing both sides by the coefficient of </emphasis>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+              <emphasis> (2 in this case). In this case, we don’t have another side: we can’t make that 2 go away. But it’s still in the way of completing the square. So we factor it out of the first two terms. Do not factor it out of the third (numerical) term; leave that part alone, outside of the parentheses.</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mfenced open="(" close=")">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:msup>
+                                      <m:mi>x</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mtext>10</m:mtext>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:munder accentunder="true">
+                                      <m:mtext>25</m:mtext>
+                                      <m:mo>̲</m:mo>
+                                    </m:munder>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mfenced>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mtext>58</m:mtext>
+                            </m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:munder accentunder="true">
+                              <m:mtext>50</m:mtext>
+                              <m:mo>̲</m:mo>
+                            </m:munder>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{2 left (x rSup { size 8{2} }  - "10"x+ {underline  {"25"}}  right )+"58" -  {underline  {"50"}} } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry><emphasis>Inside the parentheses, add the number you need to complete the square. (Half of 10, squared.)Now, when we add 25 inside the parentheses, what we have really done to our function? We have added 50, since everything in parentheses is doubled. So we keep the function the same by subtracting that 50 right back again, outside the parentheses! Since all we have done in this step is add 50 and then subtract it, the function is unchanged.</emphasis></entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mfenced open="(" close=")">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>5</m:mn>
+                                </m:mrow>
+                              </m:mfenced>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>8</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{2 left (x - 5 right ) rSup { size 8{2} } +8} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry><emphasis>Inside the parentheses, you now have a perfect square and can rewrite it as such. Outside the parentheses, you just have two numbers to combine.</emphasis></entry>
+          </row>
+          <row>
+            <entry>Vertex
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mn>5,8</m:mn></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (5,8 right )} {}</m:annotation></m:semantics></m:math>
+opens up</entry>
+            <entry><emphasis>Since the function is now in the correct form, we can read this information straight from the formula and graph it. Note that the number inside the parentheses (the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math>) always changes sign; the number outside (the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>k</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math>) does not.</emphasis></entry>
+          </row>
+          <row>
+            <entry>
+<media id="id1171362639114" alt="Graph of the parabola shifted up and to the right."><image src="../../media/comsquare_2.png" mime-type="image/png" print-width="3in"/></media>
+
+      </entry>
+            <entry><emphasis>So there’s the graph! It’s easy to draw once you have the vertex and direction. It’s also worth knowing that the 2 vertically stretches the graph, so it will be thinner than a normal 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</emphasis></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+<!--</para>-->
+</example>
+    <para id="id12002563">This process may look intimidating at first. For the moment, don’t worry about mastering the whole thing—instead, look over every <emphasis>individual step</emphasis> carefully and make sure you understand why it works—that is, why it keeps the function fundamentally unchanged, while moving us toward our goal of a form that we can graph.</para>
+    <para id="id12775774">The good news is, this process is basically the same every time. A different example is worked through in the worksheet “Graphing Quadratic Functions II”—that example differs only because the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> term does not have a coefficient, which changes a few of the steps in a minor way. You will have plenty of opportunity to practice this process, which will help you get the “big picture” if you understand all the individual steps.</para>
+    <para id="id12157988">And don’t forget that what we’re really creating here is an algebraic generalization!</para>
+    <equation id="id12062700">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>2x</m:mn>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mtext>20</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>58</m:mtext>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>8</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{2x rSup { size 8{2} }  - "20"x+"58"=2 left (x - 5 right ) rSup { size 8{2} } +8} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id11881214">This is exactly the sort of generalization we discussed in the first unit—the assertion that these two very different functions will <emphasis>always give the same answer</emphasis> for any 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-value you plug into them. For this very reason, we can also assert that the two graphs will look the same. So we can graph the first function by graphing the second.</para>
+  </content>
+</document>

@@ -1,0 +1,179 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Quadratic Concepts -- Solving Problems by Graphing Quadratic Functions</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>0df327e5-881f-4df2-9ce1-6251d963d749</md:uuid>
+</metadata>
+  <content>
+    <para id="id5859962">Surprisingly, there is a fairly substantial class of real world problems that can be solved by graphing quadratic functions.</para>
+    <para id="id7846230">These problems are commonly known as “optimization problems” because they involve the question: “When does this important function reach its <emphasis>maximum</emphasis>?” (Or sometimes, its <emphasis>minimum</emphasis>?) In real life, of course, there are many things we want to maximize—a company wants to maximize its revenue, a baseball player his batting average, a car designer the leg room in front of the driver. And there are many things we want to minimize—a company wants to minimize its costs, a baseball player his errors, a car designer the amount of gas used. Mathematically, this is done by writing a function for that quantity and finding where that function reaches its highest or lowest point.</para>
+    <example id="element-222"><exercise id="element-846"><problem id="idp3343456">
+  <para id="element-479">If a company manufactures 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> items, its total cost to produce these items is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mtext>43</m:mtext></m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{3} }  - "10"x rSup { size 8{2} } +"43"x} {}</m:annotation></m:semantics></m:math>. How many items should the company make in order to <emphasis>minimize</emphasis> its <emphasis>average cost per item</emphasis>?</para>
+</problem>
+
+<solution id="idm5855552">
+  <para id="element-856">“Average cost per item” is the total cost, divided by the number of items. For instance, if it costs $600 to manufacture 50 items, then the average cost per item was $12. It is important for companies to minimize average cost because this enables them to sell at a low price.</para>
+</solution>
+</exercise>
+</example>
+    
+    
+    
+    <para id="id7196602">In this case, the total cost is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mtext>43</m:mtext></m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{3} }  - "10"x rSup { size 8{2} } +"43"x} {}</m:annotation></m:semantics></m:math> and the number of items is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>. So the <emphasis>average cost per item</emphasis> is</para>
+    <equation id="id7096444"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>A</m:mn>
+                 
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>10</m:mtext>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mtext>43</m:mtext>
+                          </m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mtext>10</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mtext>43</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{A \)  \( x \) = {  {x rSup { size 8{3} }  - "10"x rSup { size 8{2} } +"43"x}  over  {x} } =x rSup { size 8{2} }  - "10"x+"43"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id6500809">What the question is asking, mathematically, is: what value of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> makes this function the <emphasis>lowest</emphasis>?</para>
+    <para id="id7148570">Well, suppose we were to graph this function. We would complete the square by rewriting it as:</para>
+    <equation id="id7148578">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>A</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mtext>10</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mtext>25</m:mtext>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>18</m:mtext>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>5</m:mn>
+                          </m:mrow>
+                        </m:mfenced>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>18</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{A \( x \) =x rSup { size 8{2} }  - "10"x+"25"+"18"= left (x - 5 right ) rSup { size 8{2} } +"18"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id7788838">The graph opens up (since the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (x - 5 right ) rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>term is positive), and has its vertex at 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>5,</m:mn><m:mtext>18</m:mtext></m:mrow></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (5,"18" right )} {}</m:annotation></m:semantics></m:math> (since it is moved 5 to the right and 18 up). So it would look something like this:</para>
+    <figure id="id7385860"><media id="idp961008" alt="Graph of average price per item vs. number of items"><image src="../../media/graphics1-54d1.png" mime-type="image/png" print-width="4in"/></media></figure>
+    <para id="id7789500">I have graphed only the first quadrant, because negative values are not relevant for this problem (why?).</para>
+    <para id="id7789506">The real question here is, what can we learn from that graph? Every point on that graph represents one possibility for our company: if they manufacture 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> items, the graph shows what 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A \( x \) } {}</m:annotation></m:semantics></m:math>, the average cost per item, will be.</para>
+    <para id="id7790723">The point 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>5,</m:mn><m:mtext>18</m:mtext></m:mrow></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (5,"18" right )} {}</m:annotation></m:semantics></m:math> is the <emphasis>lowest point on the graph</emphasis>. It is possible for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> to be higher or lower than 5, but it is never possible for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>A</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> to be lower than 18. So if its goal is to minimize average cost, their best strategy is to manufacture 5 items, which will bring their average cost to $18/item.</para>
+  </content>
+</document>
