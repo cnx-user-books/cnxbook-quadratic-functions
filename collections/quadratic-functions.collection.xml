@@ -1,3 +1,60 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xmlns:cnxml="http://cnx.rice.edu/cnxml" xml:lang="en">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col11284</md:content-id>  <md:title>Quadratic Functions</md:title>      <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>  <md:language>en</md:language>              <md:uuid>4075efeb-6143-46fc-b22b-750a9c436a04</md:uuid>
-<md:slug>quadratic-functions</md:slug>
-</metadata>  <col:content>          <col:module document="m18224">        <col:featured-links>                      <cnxml:link-group type="example">              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/polynomials/t/multiplying-monomials-andor-binomials-and-foil">Multiplying Binomials</cnxml:link>            </cnxml:link-group>                  </col:featured-links>      </col:module>                            <col:module document="m18227">        <col:featured-links>                      <cnxml:link-group type="example">              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/solving-quadratic-equations-by-factoring">Solving Quadratic Equations by Factoring Video</cnxml:link>            </cnxml:link-group>                  </col:featured-links>      </col:module>                            <col:module document="m18222"/>                            <col:module document="m18217">        <col:featured-links>                      <cnxml:link-group type="example">              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/solving-a-quadratic-by-completing-the-square">Solving Quadratic Equations by Completing the Square Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/completing-the-square">Completing the Square Video</cnxml:link>            </cnxml:link-group>                  </col:featured-links>      </col:module>                            <col:module document="m18231">        <col:featured-links>                      <cnxml:link-group type="example">              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/the-quadratic-formula">The Quadratic Formula Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/deriving-the-quadratic-formula">Deriving the Quadratic Formula Video</cnxml:link>            </cnxml:link-group>                  </col:featured-links>      </col:module>                            <col:module document="m18228">        <col:featured-links>                      <cnxml:link-group type="example">              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/graphing-a-quadratic-inequality">Graphing Quadratic Inequalities Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/graphing-a-horizontal-parabola">Graphing a Horizontal Parabola Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/focus-and-directrix-of-a-parabola">Parabola Focus Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/finding-intercepts-domain-range-and-vertex-of-a-parabola">Parabola Intercept Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/finding-the-vertex-of-a-parabola-by-completing-the-square">Parabola Vertex Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/dilations-of-quadratic-graphs">Graph Dilations Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/vertical-and-horizontal-shifts-of-quadratic-graphs">Graph Shifts Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/graphing-quadratic-equations">Graphing Quadratic Equations Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/exploring-quadratic-graphs">Quadratic Graphs Video</cnxml:link>            </cnxml:link-group>                  </col:featured-links>      </col:module>                            <col:module document="m18220"/>                    </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xmlns:cnxml="http://cnx.rice.edu/cnxml" xml:lang="en" authors="Scott Starks">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col11284</md:content-id>
+    <md:title>Quadratic Functions</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+    <md:language>en</md:language>
+    <md:uuid>4075efeb-6143-46fc-b22b-750a9c436a04</md:uuid>
+    <md:slug>quadratic-functions</md:slug>
+  </metadata>
+  <col:content>
+    <col:module document="m18224">
+      <col:featured-links>
+        <cnxml:link-group type="example">
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/polynomials/t/multiplying-monomials-andor-binomials-and-foil">Multiplying Binomials</cnxml:link>
+        </cnxml:link-group>
+      </col:featured-links>
+    </col:module>
+    <col:module document="m18227">
+      <col:featured-links>
+        <cnxml:link-group type="example">
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/solving-quadratic-equations-by-factoring">Solving Quadratic Equations by Factoring Video</cnxml:link>
+        </cnxml:link-group>
+      </col:featured-links>
+    </col:module>
+    <col:module document="m18222"/>
+    <col:module document="m18217">
+      <col:featured-links>
+        <cnxml:link-group type="example">
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/solving-a-quadratic-by-completing-the-square">Solving Quadratic Equations by Completing the Square Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/completing-the-square">Completing the Square Video</cnxml:link>
+        </cnxml:link-group>
+      </col:featured-links>
+    </col:module>
+    <col:module document="m18231">
+      <col:featured-links>
+        <cnxml:link-group type="example">
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/the-quadratic-formula">The Quadratic Formula Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/deriving-the-quadratic-formula">Deriving the Quadratic Formula Video</cnxml:link>
+        </cnxml:link-group>
+      </col:featured-links>
+    </col:module>
+    <col:module document="m18228">
+      <col:featured-links>
+        <cnxml:link-group type="example">
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/graphing-a-quadratic-inequality">Graphing Quadratic Inequalities Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/graphing-a-horizontal-parabola">Graphing a Horizontal Parabola Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/focus-and-directrix-of-a-parabola">Parabola Focus Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/finding-intercepts-domain-range-and-vertex-of-a-parabola">Parabola Intercept Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/finding-the-vertex-of-a-parabola-by-completing-the-square">Parabola Vertex Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/dilations-of-quadratic-graphs">Graph Dilations Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/vertical-and-horizontal-shifts-of-quadratic-graphs">Graph Shifts Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/graphing-quadratic-equations">Graphing Quadratic Equations Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/quadratic-equations-and-functions/t/exploring-quadratic-graphs">Quadratic Graphs Video</cnxml:link>
+        </cnxml:link-group>
+      </col:featured-links>
+    </col:module>
+    <col:module document="m18220"/>
+  </col:content>
+</col:collection>
